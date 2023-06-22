@@ -1,0 +1,512 @@
+.comments {
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.comments-top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #323232;
+  margin: 45px 0 10px;
+  padding: 10px 0;
+  border-top: 1px solid #f0f2f5;
+  border-bottom: 1px solid #f0f2f5;
+}
+
+.comments-mainTitle {
+  text-align: left;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #323232;
+}
+
+hr.comments-line {
+  width: 100%;
+  max-width: 611px;
+  margin-left: 10px;
+  height: 1px;
+  background-color: var(--grey);
+  border: none;
+}
+
+.comments-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comment-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.comment-0 {
+  margin-right: 16px;
+  border-radius: 50%;
+}
+
+.blue-ref {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3ab6ec;
+}
+
+.platform-comments {
+  color: #3ab6ec;
+  text-decoration: none;
+}
+
+.comment-answer {
+  width: 100% !important;
+}
+
+.comment-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.comment-write {
+  cursor: pointer;
+  padding: 8px 10px 7px 12px;
+  outline: none;
+  border: none;
+  appearance: none;
+  max-width: 683px;
+  width: 100%;
+  background-color: #f0f2f5;
+  border-radius: 18px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #65676b;
+  background-image: url("urn:scrapbook:download:error:https://theheavens.space/eum/a/news/images/input-bg.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.comment-underInput {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #050505;
+}
+
+.comment-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.comment-answer {
+  margin-top: 10px;
+}
+
+.comment-img {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  display: block;
+  margin-right: 16px;
+}
+
+.comment-inner {
+  width: 100%;
+  max-width: 683px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comment_img {
+  margin: 10px 0 0px;
+}
+
+.comment-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.comment-reaction {
+  position: absolute;
+  bottom: -10px;
+  right: 2px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 2px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.comment-reaction img {
+  display: block;
+  height: 16px;
+  width: auto;
+}
+
+.reaction-count {
+  display: block;
+  margin-left: 2px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #65676b;
+}
+
+.comment-author {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #323232;
+}
+
+.mobLink {
+  display: none;
+}
+
+.comment-city {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 0.03em;
+  color: #65676b;
+}
+
+.comment-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #323232;
+}
+
+.comment-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comment-info span {
+  display: block;
+  color: #65676b;
+  font-size: 12px;
+  line-height: 12px;
+  font-style: normal;
+}
+
+.comment-info a {
+  display: block;
+  color: #65676b;
+  font-size: 12px;
+  line-height: 12px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.comment-dot {
+  color: #65676B;
+  padding: 0px 3px;
+}
+
+.comment-span {
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.comment-time {
+  font-family: 'Segoe UI';
+  font-weight: normal;
+}
+
+.comment-time.mob {
+  display: none;
+}
+
+.comment-btn {
+  display: none;
+}
+
+.comment-mob {
+  display: none;
+}
+
+.comment-btn-desk {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+  background: #0078ff;
+  border-radius: 40px;
+  margin-bottom: 15px;
+}
+
+.comment-link {
+  display: flex;
+  align-items: center;
+  margin-left: 57px;
+}
+
+.comment-link img {
+  margin-right: 10px;
+}
+
+.comment-link h3 {
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.facebook-plagin-desk {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #0049b6;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+br.mob {
+  display: none;
+}
+
+.comment-dot.mob {
+  display: none;
+}
+
+.comment-dot.mob {
+  display: none;
+}
+
+.comment-numberLike {
+  font-family: 'Segoe UI Historic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #65676B;
+  padding-left: 4px;
+}
+
+@media (max-width: 1023px) {
+  .comment-write {
+    max-width: 100%;
+  }
+
+  .comment-inner {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .comment-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  br.mob {
+    display: block;
+  }
+
+  .comments-top {
+    padding: 5px 0;
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+
+  .comment-0 {
+    flex-basis: 25%;
+    width: 100%;
+    max-width: 41px;
+    height: auto;
+    flex-grow: 0;
+  }
+
+  .comment-input {
+    align-items: center;
+    flex-direction: row;
+    flex-basis: 75%;
+    flex-grow: 1;
+  }
+
+  .comment-write {
+    margin-bottom: 10px;
+    border: 1px solid #bec3c9;
+    background-image: none;
+    background-color: #ffffff;
+    max-width: 310px;
+    height: 40px;
+    margin-bottom: 0px;
+  }
+
+  .comment-underInput {
+    display: none;
+  }
+
+  .comment-btn {
+    display: block;
+    text-decoration: none;
+    padding: 7px 10px 6px;
+    background-color: #ffffff;
+    border: 1px solid #bec3c9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-left: 10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #bec3c9;
+  }
+
+  .comment-mob {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 70px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+    flex-basis: 100%;
+  }
+
+  .comment-block {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .comment-author {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .comment-author .deskLink {
+    display: none;
+  }
+
+  .mobLink {
+    display: block;
+  }
+
+  .comment-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .comment-info span {
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  .reaction-count {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .comments-mainTitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .facebook-plagin-desk {
+    display: none;
+  }
+
+  .comment-btn-desk {
+    display: none;
+  }
+
+  .comment-link {
+    display: none;
+  }
+
+  .comments {
+    margin-bottom: 0 !important;
+  }
+
+  .comment-dot.break {
+    display: none;
+  }
+
+  .comment-info.break {
+    flex-wrap: wrap;
+    max-width: 200px;
+  }
+
+  .comment-time.break {
+    margin-top: 3px;
+  }
+
+  .comment-dot.desk {
+    display: none;
+  }
+
+  .comment-dot.mob {
+    display: contents;
+  }
+
+  .comment-dot.mob {
+    display: contents;
+  }
+
+  .mob-mb-15 {
+    margin-bottom: 15px;
+  }
+}
